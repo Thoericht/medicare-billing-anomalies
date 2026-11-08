@@ -112,7 +112,7 @@ Measured with PowerShell `Measure-Command` on the already filtered General Surge
 | `01_condense.sql` (load, pseudonymise, metrics per row) | 2.5 s |
 | `03_metrics.sql` (peer groups, flags, score, export) | 2.1 s |
 
-Computer: [add model, RAM]
+Computer: Huawei Matebook D16, 16 RAM
 
 ## Repository structure
 

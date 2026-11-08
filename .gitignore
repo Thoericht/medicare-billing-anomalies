@@ -1,0 +1,16 @@
+# raw data, local database and pseudonym mapping
+01_data/*
+!01_data/README.md
+*.duckdb
+*.parquet
+pseudonym_mapping*
+
+# Power BI file (contains all pseudonyms and states)
+*.pbix
+
+# CSV files (the exports in 05_output are ignored too, see below)
+*.csv
+
+# Python
+__pycache__/
+.ipynb_checkpoints/

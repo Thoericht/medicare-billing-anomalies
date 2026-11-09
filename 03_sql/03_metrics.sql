@@ -210,7 +210,10 @@ SELECT
     flag_level,
     flag_services + flag_charge + flag_level AS score,
     -- robust core: at least 2 of the 3 metrics stand out even with the stricter threshold
-    CASE WHEN flag_services_core + flag_charge_core + flag_level_core >= 2 THEN 1 ELSE 0 END AS robust_core
+    CASE WHEN flag_services_core + flag_charge_core + flag_level_core >= 2 THEN 1 ELSE 0 END AS robust_core,
+    -- sensitivity test: the same score and core without the visit-level metric
+    flag_services + flag_charge AS score_metrics_1_2,
+    CASE WHEN flag_services_core + flag_charge_core = 2 THEN 1 ELSE 0 END AS core_metrics_1_2
 FROM flags;
 
 -- 6) State summary for the map. Only states with at least min_group_size providers get
@@ -271,4 +274,19 @@ ORDER BY score;
 SELECT
     COUNT(*) FILTER (WHERE robust_core = 1)                    AS robust_core_providers,
     COUNT(*) FILTER (WHERE robust_core = 1 AND score >= 2)     AS of_those_with_score_2_plus
+FROM provider_metrics;
+
+-- 8g) Sensitivity: how much do score and robust core depend on the visit-level metric?
+SELECT
+    -- providers flagged at least once
+    COUNT(*) FILTER (WHERE score >= 1)                                   AS flagged_all_metrics,
+    COUNT(*) FILTER (WHERE score_metrics_1_2 >= 1)                       AS flagged_metrics_1_2,
+    COUNT(*) FILTER (WHERE score >= 1 AND score_metrics_1_2 = 0)         AS flagged_only_by_visit_level,
+    -- providers standing out on at least two metrics (with all three), or on both line-level metrics
+    COUNT(*) FILTER (WHERE score >= 2)                                   AS score_2plus_all_metrics,
+    COUNT(*) FILTER (WHERE score_metrics_1_2 = 2)                        AS score_2_metrics_1_2,
+    -- robust core
+    COUNT(*) FILTER (WHERE robust_core = 1)                              AS core_all_metrics,
+    COUNT(*) FILTER (WHERE core_metrics_1_2 = 1)                         AS core_metrics_1_2,
+    COUNT(*) FILTER (WHERE robust_core = 1 AND core_metrics_1_2 = 1)     AS core_in_both
 FROM provider_metrics;

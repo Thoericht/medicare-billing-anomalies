@@ -1,0 +1,26 @@
+hcpcs_code,hcpcs_description,place_of_service,providers_in_group,service_lines,flagged_either,pct_flagged_services,pct_flagged_charge,pct_flagged_either
+82565,Blood creatinine level,O,20,20,11,10.0,45.0,55.0
+77066,Diagnostic mammography of both breasts,O,28,28,11,39.3,0.0,39.3
+87880,"Detection test by immunoassay with direct visual observation for streptococcus, group a (strep)",O,21,21,8,4.8,33.3,38.1
+87426,Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus,O,22,22,8,36.4,0.0,36.4
+11047,"Removal of bone, each additional 20.0 sq cm or less",O,20,20,7,0.0,35.0,35.0
+45385,Removal of polyps or growths of large bowel using an endoscope with mechanical snare,O,49,49,16,8.2,24.5,32.7
+91040,Study of esophageal sensation by balloon distension,F,31,31,10,3.2,29.0,32.3
+99211,Office or other outpatient visit for the evaluation and management of established patient that may not require presence of healthcare professional,O,117,117,36,23.9,8.5,30.8
+G0105,Colorectal cancer screening; colonoscopy on individual at high risk,O,20,20,6,10.0,20.0,30.0
+43239,"Biopsy of esophagus, stomach, and/or upper small bowel using a flexible endoscope",O,38,38,10,5.3,21.1,26.3
+36907,Balloon dilation of dialysis segment with review by radiologist,F,23,23,6,13.0,13.0,26.1
+93990,Ultrasound of hemodialysis access,F,31,31,8,9.7,22.6,25.8
+91035,Monitoring and recording of esophageal function through a capsule attached to the esophagus wall,F,36,36,9,11.1,16.7,25.0
+93922,Ultrasound study of arm and leg arteries,F,129,129,32,5.4,19.4,24.8
+99282,Emergency department visit with straightforward medical decision making,F,25,25,6,12.0,16.0,24.0
+93925,Ultrasound of leg arteries or artery grafts,F,106,106,25,3.8,19.8,23.6
+77001,Fluoroscopic guidance for insertion or removal of central vein access device,F,653,653,153,6.4,18.5,23.4
+97598,"Removal of tissue from wound, each additional 20.0 sq cm",O,43,43,10,14.0,11.6,23.3
+G0180,"Physician or allowed practitioner certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians and",O,56,56,13,8.9,14.3,23.2
+19081,"Biopsy of breast and placement of locating device using x-ray with needle, first growth",O,39,39,9,15.4,10.3,23.1
+G2211,Visit complexity inherent to evaluation and management associated with medical care services that serve as the continuing focal point for all needed health care services and/or with medical care services that are part of ongoing care related to a patient's,F,191,191,44,16.2,6.8,23.0
+22558,Fusion of lower spine bone through abdomen with partial removal of disc,F,96,96,22,9.4,14.6,22.9
+93005,Routine electrocardiogram (ecg) using at least 12 leads with tracing,O,35,35,8,8.6,14.3,22.9
+44213,Partial release of large bowel and partial removal of large bowel using an endoscope,F,31,31,7,12.9,9.7,22.6
+76604,Ultrasound scan of chest,F,53,53,12,7.5,15.1,22.6

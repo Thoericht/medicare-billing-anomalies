@@ -1,0 +1,4 @@
+threshold,threshold_label,providers,score_1_or_more,score_2_or_more,score_3
+3.0,3.0,19111,2328,181,6
+3.5,3.5,19111,1902,103,4
+5.0,5.0,19111,1126,40,0

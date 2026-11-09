@@ -1,6 +1,5 @@
 # raw data, local database and pseudonym mapping
 01_data/*
-!01_data/README.md
 *.duckdb
 *.parquet
 pseudonym_mapping*
@@ -8,8 +7,14 @@ pseudonym_mapping*
 # Power BI file (contains all pseudonyms and states)
 *.pbix
 
-# CSV files (the exports in 05_output are ignored too, see below)
-*.csv
+# outputs: ignore everything by default, publish only the aggregated tables below
+05_output/*
+!05_output/sensitivity_summary.csv
+!05_output/top_service_codes.csv
+!05_output/z_histogram.csv
+
+# provider-level file with pseudonyms (also ignored in any other folder)
+*provider_metrics.csv
 
 # Python
 __pycache__/

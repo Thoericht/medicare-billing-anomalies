@@ -1,0 +1,63 @@
+metric,bin_start,row_count
+Charge to paid ratio,-5.0,7
+Charge to paid ratio,-4.5,4
+Charge to paid ratio,-4.0,39
+Charge to paid ratio,-3.5,46
+Charge to paid ratio,-3.0,47
+Charge to paid ratio,-2.5,253
+Charge to paid ratio,-2.0,2413
+Charge to paid ratio,-1.5,9904
+Charge to paid ratio,-1.0,22063
+Charge to paid ratio,-0.5,23960
+Charge to paid ratio,0.0,20479
+Charge to paid ratio,0.5,14230
+Charge to paid ratio,1.0,8001
+Charge to paid ratio,1.5,4628
+Charge to paid ratio,2.0,3013
+Charge to paid ratio,2.5,2066
+Charge to paid ratio,3.0,1423
+Charge to paid ratio,3.5,1019
+Charge to paid ratio,4.0,734
+Charge to paid ratio,4.5,604
+Charge to paid ratio,5.0,511
+Charge to paid ratio,5.5,375
+Charge to paid ratio,6.0,281
+Charge to paid ratio,6.5,240
+Charge to paid ratio,7.0,167
+Charge to paid ratio,7.5,147
+Charge to paid ratio,8.0,106
+Charge to paid ratio,8.5,85
+Charge to paid ratio,9.0,68
+Charge to paid ratio,9.5,61
+Charge to paid ratio,10.0,653
+Services per beneficiary,-5.0,13
+Services per beneficiary,-4.5,2
+Services per beneficiary,-4.0,4
+Services per beneficiary,-3.5,1
+Services per beneficiary,-3.0,2
+Services per beneficiary,-2.5,5
+Services per beneficiary,-2.0,38
+Services per beneficiary,-1.5,4211
+Services per beneficiary,-1.0,12065
+Services per beneficiary,-0.5,11880
+Services per beneficiary,0.0,60124
+Services per beneficiary,0.5,7778
+Services per beneficiary,1.0,5641
+Services per beneficiary,1.5,3910
+Services per beneficiary,2.0,2640
+Services per beneficiary,2.5,1900
+Services per beneficiary,3.0,1303
+Services per beneficiary,3.5,889
+Services per beneficiary,4.0,676
+Services per beneficiary,4.5,523
+Services per beneficiary,5.0,403
+Services per beneficiary,5.5,361
+Services per beneficiary,6.0,312
+Services per beneficiary,6.5,252
+Services per beneficiary,7.0,202
+Services per beneficiary,7.5,205
+Services per beneficiary,8.0,140
+Services per beneficiary,8.5,140
+Services per beneficiary,9.0,129
+Services per beneficiary,9.5,100
+Services per beneficiary,10.0,1220
